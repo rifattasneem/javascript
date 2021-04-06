@@ -1,0 +1,25 @@
+body{
+	background-color: #e7e7e7;
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+}
+h2{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: linear-gradient(to right, #6F5AA5 ,#8C7BB7);
+}
+
+.p1,.p2,.p3{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	background-color: teal;
+}
+.p2{
+	background-color: #4caf50;
+}
+.p3{
+	background-color: #00bcd4;
+}

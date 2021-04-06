@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Javascript</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <!-- OnClick -->
+          <h2>onClick</h2>
+            <div class="row">
+              <div class="col-lg-6">
+
+              <button type="button" class="btn btn-dark" id="btn" onclick="textChange()">Click me to change the text below</button>
+
+              <h3 id="text">Welcome</h3>
+            </div>
+
+            <div class="col-lg-6">
+              <button type="button" class="btn btn-dark" id="btn2" onclick="displayDate()">What time is it?</button>
+
+              <p id="demo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <!-- DoubleClick -->
+          <h2>onDoubleClick</h2>
+          <p id="paragraph" ondblclick="dblTextChange()">double click here to change the text</p>
+
+          <!-- OnChange -->
+          <h2>onChange</h2>
+
+          <input type="text" id="name" placeholder="Enter your name" onchange="changeCase()">
+          <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+          <!-- OnMouseOver -->
+          <h2>onMouseOver</h2>
+          <p class="p1" id="m-over" onmouseover="mOver()">Mouse over me</p>
+
+          <!-- OnMouseOut -->
+          <h2>onMouseOut</h2>
+          <p class="p2" id="m-out" onmouseout="mOut()">Mouse over me</p>
+
+          <!-- OnMouseDown -->
+          <h2>onMouseDown</h2>
+          <p class="p3" id="m-down" onmousedown="mDown()">Click</p>
+        </div>
+      </div>
+    </div>
+          
+
+     
+       
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>
